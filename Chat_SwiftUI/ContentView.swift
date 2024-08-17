@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  StreamChat_SwiftUI
+//  Chat_SwiftUI
 //
 //  Created by Arshif on 17/08/2024.
 //
