@@ -19,10 +19,12 @@ struct CustomChannelList: View {
         )
     }
     
+    let factory = CustomViewFactory()
+    
     var body: some View {
         NavigationView {
             ChannelList(
-                factory: DefaultViewFactory.shared,
+                factory: factory,
                 channels: viewModel.channels,
                 selectedChannel: $viewModel.selectedChannel,
                 swipedChannelId: $viewModel.swipedChannelId,
@@ -32,10 +34,22 @@ struct CustomChannelList: View {
                 onItemAppear: { index in
                     viewModel.checkForChannels(index: index)
                 },
-                channelDestination: DefaultViewFactory.shared.makeChannelDestination()
+                channelDestination: CustomViewFactory.shared.makeChannelDestination()
             )
             .toolbar {
                 DefaultChatChannelListHeader(title: "Stream Tutorial")
+            }
+        }
+    }
+    
+    class CustomViewFactory: ViewFactory {
+        @Injected(\.chatClient) var chatClient: ChatClient
+        
+        static let shared = CustomViewFactory()
+        
+        func makeChannelDestination() -> (ChannelSelectionInfo) -> CustomChannelView {
+            { channelInfo in
+                CustomChannelView(channelId: channelInfo.channel.cid)
             }
         }
     }

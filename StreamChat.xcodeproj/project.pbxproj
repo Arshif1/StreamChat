@@ -18,6 +18,7 @@
 		63D4DCE92C7099B3009F1DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCE82C7099B3009F1DDC /* Assets.xcassets */; };
 		63D4DCEC2C7099B3009F1DDC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCEB2C7099B3009F1DDC /* Base */; };
 		63D4DCF22C709D19009F1DDC /* CustomChannelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCF12C709D19009F1DDC /* CustomChannelList.swift */; };
+		63D4DCF42C70A186009F1DDC /* CustomChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCF32C70A186009F1DDC /* CustomChannelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		63D4DCEB2C7099B3009F1DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63D4DCED2C7099B3009F1DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D4DCF12C709D19009F1DDC /* CustomChannelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChannelList.swift; sourceTree = "<group>"; };
+		63D4DCF32C70A186009F1DDC /* CustomChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChannelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				63D4DCCB2C709912009F1DDC /* Chat_SwiftUIApp.swift */,
 				63D4DCF12C709D19009F1DDC /* CustomChannelList.swift */,
+				63D4DCF32C70A186009F1DDC /* CustomChannelView.swift */,
 				63D4DCCF2C709913009F1DDC /* Assets.xcassets */,
 				63D4DCD12C709913009F1DDC /* Preview Content */,
 			);
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D4DCF22C709D19009F1DDC /* CustomChannelList.swift in Sources */,
+				63D4DCF42C70A186009F1DDC /* CustomChannelView.swift in Sources */,
 				63D4DCCC2C709912009F1DDC /* Chat_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +393,8 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We would like to use your camera.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We would like to use your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -418,6 +424,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Chat_SwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We would like to use your camera.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We would like to use your photo library.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
