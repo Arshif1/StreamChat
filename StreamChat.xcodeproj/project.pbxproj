@@ -7,48 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63D4DCB02C70967E009F1DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCAF2C70967E009F1DDC /* AppDelegate.swift */; };
-		63D4DCB22C70967E009F1DDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCB12C70967E009F1DDC /* SceneDelegate.swift */; };
-		63D4DCB42C70967E009F1DDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCB32C70967E009F1DDC /* ViewController.swift */; };
-		63D4DCB72C70967E009F1DDC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCB62C70967E009F1DDC /* Base */; };
-		63D4DCB92C70967F009F1DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCB82C70967F009F1DDC /* Assets.xcassets */; };
-		63D4DCBC2C70967F009F1DDC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCBB2C70967F009F1DDC /* Base */; };
 		63D4DCCC2C709912009F1DDC /* Chat_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCCB2C709912009F1DDC /* Chat_SwiftUIApp.swift */; };
 		63D4DCCE2C709912009F1DDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCCD2C709912009F1DDC /* ContentView.swift */; };
 		63D4DCD02C709913009F1DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCCF2C709913009F1DDC /* Assets.xcassets */; };
 		63D4DCD32C709913009F1DDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCD22C709913009F1DDC /* Preview Assets.xcassets */; };
 		63D4DCD82C70995A009F1DDC /* StreamChatSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 63D4DCD72C70995A009F1DDC /* StreamChatSwiftUI */; };
+		63D4DCE02C7099B2009F1DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCDF2C7099B2009F1DDC /* AppDelegate.swift */; };
+		63D4DCE22C7099B2009F1DDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCE12C7099B2009F1DDC /* SceneDelegate.swift */; };
+		63D4DCE42C7099B2009F1DDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCE32C7099B2009F1DDC /* ViewController.swift */; };
+		63D4DCE72C7099B2009F1DDC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCE62C7099B2009F1DDC /* Base */; };
+		63D4DCE92C7099B3009F1DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCE82C7099B3009F1DDC /* Assets.xcassets */; };
+		63D4DCEC2C7099B3009F1DDC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCEB2C7099B3009F1DDC /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		63D4DCAD2C70967E009F1DDC /* StreamChat_UiKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StreamChat_UiKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		63D4DCAF2C70967E009F1DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		63D4DCB12C70967E009F1DDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63D4DCB32C70967E009F1DDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		63D4DCB62C70967E009F1DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63D4DCB82C70967F009F1DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		63D4DCBB2C70967F009F1DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		63D4DCBD2C70967F009F1DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D4DCC92C709912009F1DDC /* Chat_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D4DCCB2C709912009F1DDC /* Chat_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_SwiftUIApp.swift; sourceTree = "<group>"; };
 		63D4DCCD2C709912009F1DDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		63D4DCCF2C709913009F1DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63D4DCD22C709913009F1DDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63D4DCDD2C7099B2009F1DDC /* Chat_UIKIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat_UIKIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D4DCDF2C7099B2009F1DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63D4DCE12C7099B2009F1DDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		63D4DCE32C7099B2009F1DDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63D4DCE62C7099B2009F1DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63D4DCE82C7099B3009F1DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D4DCEB2C7099B3009F1DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63D4DCED2C7099B3009F1DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63D4DCAA2C70967E009F1DDC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63D4DCC62C709912009F1DDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				63D4DCD82C70995A009F1DDC /* StreamChatSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D4DCDA2C7099B2009F1DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +58,8 @@
 		63D4DC7D2C7095EB009F1DDC = {
 			isa = PBXGroup;
 			children = (
-				63D4DCAE2C70967E009F1DDC /* StreamChat_UiKit */,
 				63D4DCCA2C709912009F1DDC /* Chat_SwiftUI */,
+				63D4DCDE2C7099B2009F1DDC /* Chat_UIKIt */,
 				63D4DC872C7095EB009F1DDC /* Products */,
 				63D4DCC22C709852009F1DDC /* Frameworks */,
 			);
@@ -68,24 +68,10 @@
 		63D4DC872C7095EB009F1DDC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63D4DCAD2C70967E009F1DDC /* StreamChat_UiKit.app */,
 				63D4DCC92C709912009F1DDC /* Chat_SwiftUI.app */,
+				63D4DCDD2C7099B2009F1DDC /* Chat_UIKIt.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		63D4DCAE2C70967E009F1DDC /* StreamChat_UiKit */ = {
-			isa = PBXGroup;
-			children = (
-				63D4DCAF2C70967E009F1DDC /* AppDelegate.swift */,
-				63D4DCB12C70967E009F1DDC /* SceneDelegate.swift */,
-				63D4DCB32C70967E009F1DDC /* ViewController.swift */,
-				63D4DCB52C70967E009F1DDC /* Main.storyboard */,
-				63D4DCB82C70967F009F1DDC /* Assets.xcassets */,
-				63D4DCBA2C70967F009F1DDC /* LaunchScreen.storyboard */,
-				63D4DCBD2C70967F009F1DDC /* Info.plist */,
-			);
-			path = StreamChat_UiKit;
 			sourceTree = "<group>";
 		};
 		63D4DCC22C709852009F1DDC /* Frameworks */ = {
@@ -114,26 +100,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		63D4DCDE2C7099B2009F1DDC /* Chat_UIKIt */ = {
+			isa = PBXGroup;
+			children = (
+				63D4DCDF2C7099B2009F1DDC /* AppDelegate.swift */,
+				63D4DCE12C7099B2009F1DDC /* SceneDelegate.swift */,
+				63D4DCE32C7099B2009F1DDC /* ViewController.swift */,
+				63D4DCE52C7099B2009F1DDC /* Main.storyboard */,
+				63D4DCE82C7099B3009F1DDC /* Assets.xcassets */,
+				63D4DCEA2C7099B3009F1DDC /* LaunchScreen.storyboard */,
+				63D4DCED2C7099B3009F1DDC /* Info.plist */,
+			);
+			path = Chat_UIKIt;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		63D4DCAC2C70967E009F1DDC /* StreamChat_UiKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 63D4DCBE2C70967F009F1DDC /* Build configuration list for PBXNativeTarget "StreamChat_UiKit" */;
-			buildPhases = (
-				63D4DCA92C70967E009F1DDC /* Sources */,
-				63D4DCAA2C70967E009F1DDC /* Frameworks */,
-				63D4DCAB2C70967E009F1DDC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = StreamChat_UiKit;
-			productName = StreamChat_UiKit;
-			productReference = 63D4DCAD2C70967E009F1DDC /* StreamChat_UiKit.app */;
-			productType = "com.apple.product-type.application";
-		};
 		63D4DCC82C709912009F1DDC /* Chat_SwiftUI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 63D4DCD42C709913009F1DDC /* Build configuration list for PBXNativeTarget "Chat_SwiftUI" */;
@@ -154,6 +137,23 @@
 			productReference = 63D4DCC92C709912009F1DDC /* Chat_SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
+		63D4DCDC2C7099B2009F1DDC /* Chat_UIKIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D4DCEE2C7099B3009F1DDC /* Build configuration list for PBXNativeTarget "Chat_UIKIt" */;
+			buildPhases = (
+				63D4DCD92C7099B2009F1DDC /* Sources */,
+				63D4DCDA2C7099B2009F1DDC /* Frameworks */,
+				63D4DCDB2C7099B2009F1DDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chat_UIKIt;
+			productName = Chat_UIKIt;
+			productReference = 63D4DCDD2C7099B2009F1DDC /* Chat_UIKIt.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -164,10 +164,10 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					63D4DCAC2C70967E009F1DDC = {
+					63D4DCC82C709912009F1DDC = {
 						CreatedOnToolsVersion = 15.3;
 					};
-					63D4DCC82C709912009F1DDC = {
+					63D4DCDC2C7099B2009F1DDC = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -188,23 +188,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63D4DCAC2C70967E009F1DDC /* StreamChat_UiKit */,
 				63D4DCC82C709912009F1DDC /* Chat_SwiftUI */,
+				63D4DCDC2C7099B2009F1DDC /* Chat_UIKIt */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		63D4DCAB2C70967E009F1DDC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63D4DCB92C70967F009F1DDC /* Assets.xcassets in Resources */,
-				63D4DCBC2C70967F009F1DDC /* Base in Resources */,
-				63D4DCB72C70967E009F1DDC /* Base in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		63D4DCC72C709912009F1DDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,19 +204,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		63D4DCA92C70967E009F1DDC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		63D4DCDB2C7099B2009F1DDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D4DCB42C70967E009F1DDC /* ViewController.swift in Sources */,
-				63D4DCB02C70967E009F1DDC /* AppDelegate.swift in Sources */,
-				63D4DCB22C70967E009F1DDC /* SceneDelegate.swift in Sources */,
+				63D4DCE92C7099B3009F1DDC /* Assets.xcassets in Resources */,
+				63D4DCEC2C7099B3009F1DDC /* Base in Resources */,
+				63D4DCE72C7099B2009F1DDC /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		63D4DCC52C709912009F1DDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,21 +226,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		63D4DCD92C7099B2009F1DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D4DCE42C7099B2009F1DDC /* ViewController.swift in Sources */,
+				63D4DCE02C7099B2009F1DDC /* AppDelegate.swift in Sources */,
+				63D4DCE22C7099B2009F1DDC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		63D4DCB52C70967E009F1DDC /* Main.storyboard */ = {
+		63D4DCE52C7099B2009F1DDC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				63D4DCB62C70967E009F1DDC /* Base */,
+				63D4DCE62C7099B2009F1DDC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		63D4DCBA2C70967F009F1DDC /* LaunchScreen.storyboard */ = {
+		63D4DCEA2C7099B3009F1DDC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				63D4DCBB2C70967F009F1DDC /* Base */,
+				63D4DCEB2C7099B3009F1DDC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -377,60 +377,6 @@
 			};
 			name = Release;
 		};
-		63D4DCBF2C70967F009F1DDC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StreamChat_UiKit/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.StreamChat-UiKit";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		63D4DCC02C70967F009F1DDC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = StreamChat_UiKit/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.StreamChat-UiKit";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		63D4DCD52C709913009F1DDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -487,6 +433,60 @@
 			};
 			name = Release;
 		};
+		63D4DCEF2C7099B3009F1DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chat_UIKIt/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.Chat-UIKIt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63D4DCF02C7099B3009F1DDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chat_UIKIt/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.Chat-UIKIt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -499,20 +499,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63D4DCBE2C70967F009F1DDC /* Build configuration list for PBXNativeTarget "StreamChat_UiKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				63D4DCBF2C70967F009F1DDC /* Debug */,
-				63D4DCC02C70967F009F1DDC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		63D4DCD42C709913009F1DDC /* Build configuration list for PBXNativeTarget "Chat_SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				63D4DCD52C709913009F1DDC /* Debug */,
 				63D4DCD62C709913009F1DDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D4DCEE2C7099B3009F1DDC /* Build configuration list for PBXNativeTarget "Chat_UIKIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D4DCEF2C7099B3009F1DDC /* Debug */,
+				63D4DCF02C7099B3009F1DDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

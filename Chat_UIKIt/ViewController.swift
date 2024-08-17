@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  StreamChat_UiKit
+//  Chat_UIKIt
 //
 //  Created by Arshif on 17/08/2024.
 //
