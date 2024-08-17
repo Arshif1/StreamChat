@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		63D4DCCC2C709912009F1DDC /* Chat_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCCB2C709912009F1DDC /* Chat_SwiftUIApp.swift */; };
-		63D4DCCE2C709912009F1DDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCCD2C709912009F1DDC /* ContentView.swift */; };
 		63D4DCD02C709913009F1DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCCF2C709913009F1DDC /* Assets.xcassets */; };
 		63D4DCD32C709913009F1DDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCD22C709913009F1DDC /* Preview Assets.xcassets */; };
 		63D4DCD82C70995A009F1DDC /* StreamChatSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 63D4DCD72C70995A009F1DDC /* StreamChatSwiftUI */; };
@@ -18,12 +17,12 @@
 		63D4DCE72C7099B2009F1DDC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCE62C7099B2009F1DDC /* Base */; };
 		63D4DCE92C7099B3009F1DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCE82C7099B3009F1DDC /* Assets.xcassets */; };
 		63D4DCEC2C7099B3009F1DDC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCEB2C7099B3009F1DDC /* Base */; };
+		63D4DCF22C709D19009F1DDC /* CustomChannelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCF12C709D19009F1DDC /* CustomChannelList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		63D4DCC92C709912009F1DDC /* Chat_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D4DCCB2C709912009F1DDC /* Chat_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_SwiftUIApp.swift; sourceTree = "<group>"; };
-		63D4DCCD2C709912009F1DDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		63D4DCCF2C709913009F1DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63D4DCD22C709913009F1DDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		63D4DCDD2C7099B2009F1DDC /* Chat_UIKIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat_UIKIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +33,7 @@
 		63D4DCE82C7099B3009F1DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63D4DCEB2C7099B3009F1DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63D4DCED2C7099B3009F1DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D4DCF12C709D19009F1DDC /* CustomChannelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChannelList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				63D4DCCB2C709912009F1DDC /* Chat_SwiftUIApp.swift */,
-				63D4DCCD2C709912009F1DDC /* ContentView.swift */,
+				63D4DCF12C709D19009F1DDC /* CustomChannelList.swift */,
 				63D4DCCF2C709913009F1DDC /* Assets.xcassets */,
 				63D4DCD12C709913009F1DDC /* Preview Content */,
 			);
@@ -221,7 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D4DCCE2C709912009F1DDC /* ContentView.swift in Sources */,
+				63D4DCF22C709D19009F1DDC /* CustomChannelList.swift in Sources */,
 				63D4DCCC2C709912009F1DDC /* Chat_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,9 +382,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Chat_SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -399,6 +401,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sample.Chat-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -32,7 +32,7 @@ struct Chat_SwiftUIApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CustomChannelList()
         }
     }
     
