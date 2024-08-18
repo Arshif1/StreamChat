@@ -16,9 +16,9 @@ struct Chat_SwiftUIApp: App {
 
     var chatClient: ChatClient = {
         //For the tutorial we use a hard coded api key and application group identifier
-        var config = ChatClientConfig(apiKey: .init("8br4watad788"))
+        var config = ChatClientConfig(apiKey: .init("y3c49p3sy7mu"))
         config.isLocalStorageEnabled = true
-        config.applicationGroupIdentifier = "group.io.getstream.iOS.ChatDemoAppSwiftUI"
+        config.applicationGroupIdentifier = "com.sample.Chat-SwiftUI"
 
         // The resulting config is passed into a new `ChatClient` instance.
         let client = ChatClient(config: config)
@@ -34,17 +34,18 @@ struct Chat_SwiftUIApp: App {
         WindowGroup {
             CustomChannelList()
         }
+        
     }
     
     private func connectUser() {
         // This is a hardcoded token valid on Stream's tutorial environment.
-        let token = try! Token(rawValue: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoibHVrZV9za3l3YWxrZXIifQ.kFSLHRB5X62t0Zlc7nwczWUfsQMwfkpylC6jCUZ6Mc0")
+        let token = try! Token(rawValue: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYXJzaGlmMSJ9.1g8hcQ-x8GdYLxWa81rnWYLJxcOms2fq5u_7Tt3GfI4")
             
         // Call `connectUser` on our SDK to get started.
         chatClient.connectUser(
             userInfo: .init(
-                id: "luke_skywalker",
-                name: "Luke Skywalker",
+                id: "arshif1",
+                name: "Mohammed Arshif",
                 imageURL: URL(string: "https://vignette.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg")!
             ),
             token: token

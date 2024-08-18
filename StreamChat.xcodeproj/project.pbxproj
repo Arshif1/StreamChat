@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		2EDC5FEE2C71DFD20075517B /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2EDC5FED2C71DFD20075517B /* StreamChatUI */; };
 		2EDC5FF02C71DFF00075517B /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 2EDC5FEF2C71DFF00075517B /* StreamChat */; };
+		6310A7252C71E7B300F69F63 /* StreamChatSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6310A7242C71E7B300F69F63 /* StreamChatSwiftUI */; };
 		63D4DCCC2C709912009F1DDC /* Chat_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCCB2C709912009F1DDC /* Chat_SwiftUIApp.swift */; };
 		63D4DCD02C709913009F1DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCCF2C709913009F1DDC /* Assets.xcassets */; };
 		63D4DCD32C709913009F1DDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCD22C709913009F1DDC /* Preview Assets.xcassets */; };
 		63D4DCE02C7099B2009F1DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCDF2C7099B2009F1DDC /* AppDelegate.swift */; };
 		63D4DCE22C7099B2009F1DDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCE12C7099B2009F1DDC /* SceneDelegate.swift */; };
-		63D4DCE42C7099B2009F1DDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCE32C7099B2009F1DDC /* ViewController.swift */; };
+		63D4DCE42C7099B2009F1DDC /* DemoChannelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCE32C7099B2009F1DDC /* DemoChannelList.swift */; };
 		63D4DCE72C7099B2009F1DDC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCE62C7099B2009F1DDC /* Base */; };
 		63D4DCE92C7099B3009F1DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCE82C7099B3009F1DDC /* Assets.xcassets */; };
 		63D4DCEC2C7099B3009F1DDC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCEB2C7099B3009F1DDC /* Base */; };
@@ -30,7 +31,7 @@
 		63D4DCDD2C7099B2009F1DDC /* Chat_UIKIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat_UIKIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D4DCDF2C7099B2009F1DDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63D4DCE12C7099B2009F1DDC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		63D4DCE32C7099B2009F1DDC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63D4DCE32C7099B2009F1DDC /* DemoChannelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoChannelList.swift; sourceTree = "<group>"; };
 		63D4DCE62C7099B2009F1DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		63D4DCE82C7099B3009F1DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63D4DCEB2C7099B3009F1DDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6310A7252C71E7B300F69F63 /* StreamChatSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +112,7 @@
 			children = (
 				63D4DCDF2C7099B2009F1DDC /* AppDelegate.swift */,
 				63D4DCE12C7099B2009F1DDC /* SceneDelegate.swift */,
-				63D4DCE32C7099B2009F1DDC /* ViewController.swift */,
+				63D4DCE32C7099B2009F1DDC /* DemoChannelList.swift */,
 				63D4DCE52C7099B2009F1DDC /* Main.storyboard */,
 				63D4DCE82C7099B3009F1DDC /* Assets.xcassets */,
 				63D4DCEA2C7099B3009F1DDC /* LaunchScreen.storyboard */,
@@ -136,6 +138,7 @@
 			);
 			name = Chat_SwiftUI;
 			packageProductDependencies = (
+				6310A7242C71E7B300F69F63 /* StreamChatSwiftUI */,
 			);
 			productName = Chat_SwiftUI;
 			productReference = 63D4DCC92C709912009F1DDC /* Chat_SwiftUI.app */;
@@ -240,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D4DCE42C7099B2009F1DDC /* ViewController.swift in Sources */,
+				63D4DCE42C7099B2009F1DDC /* DemoChannelList.swift in Sources */,
 				63D4DCE02C7099B2009F1DDC /* AppDelegate.swift in Sources */,
 				63D4DCE22C7099B2009F1DDC /* SceneDelegate.swift in Sources */,
 			);
@@ -565,6 +568,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2EDC5FEC2C71DFA20075517B /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
 			productName = StreamChat;
+		};
+		6310A7242C71E7B300F69F63 /* StreamChatSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EDC5FF12C71E0140075517B /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */;
+			productName = StreamChatSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
