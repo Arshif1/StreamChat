@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EDC5FEE2C71DFD20075517B /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2EDC5FED2C71DFD20075517B /* StreamChatUI */; };
+		2EDC5FF02C71DFF00075517B /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 2EDC5FEF2C71DFF00075517B /* StreamChat */; };
 		63D4DCCC2C709912009F1DDC /* Chat_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCCB2C709912009F1DDC /* Chat_SwiftUIApp.swift */; };
 		63D4DCD02C709913009F1DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCCF2C709913009F1DDC /* Assets.xcassets */; };
 		63D4DCD32C709913009F1DDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCD22C709913009F1DDC /* Preview Assets.xcassets */; };
-		63D4DCD82C70995A009F1DDC /* StreamChatSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 63D4DCD72C70995A009F1DDC /* StreamChatSwiftUI */; };
 		63D4DCE02C7099B2009F1DDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCDF2C7099B2009F1DDC /* AppDelegate.swift */; };
 		63D4DCE22C7099B2009F1DDC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCE12C7099B2009F1DDC /* SceneDelegate.swift */; };
 		63D4DCE42C7099B2009F1DDC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCE32C7099B2009F1DDC /* ViewController.swift */; };
@@ -43,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63D4DCD82C70995A009F1DDC /* StreamChatSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EDC5FF02C71DFF00075517B /* StreamChat in Frameworks */,
+				2EDC5FEE2C71DFD20075517B /* StreamChatUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,7 +136,6 @@
 			);
 			name = Chat_SwiftUI;
 			packageProductDependencies = (
-				63D4DCD72C70995A009F1DDC /* StreamChatSwiftUI */,
 			);
 			productName = Chat_SwiftUI;
 			productReference = 63D4DCC92C709912009F1DDC /* Chat_SwiftUI.app */;
@@ -153,6 +154,10 @@
 			dependencies = (
 			);
 			name = Chat_UIKIt;
+			packageProductDependencies = (
+				2EDC5FED2C71DFD20075517B /* StreamChatUI */,
+				2EDC5FEF2C71DFF00075517B /* StreamChat */,
+			);
 			productName = Chat_UIKIt;
 			productReference = 63D4DCDD2C7099B2009F1DDC /* Chat_UIKIt.app */;
 			productType = "com.apple.product-type.application";
@@ -185,7 +190,8 @@
 			);
 			mainGroup = 63D4DC7D2C7095EB009F1DDC;
 			packageReferences = (
-				63D4DCC12C709782009F1DDC /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */,
+				2EDC5FEC2C71DFA20075517B /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+				2EDC5FF12C71E0140075517B /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */,
 			);
 			productRefGroup = 63D4DC872C7095EB009F1DDC /* Products */;
 			projectDirPath = "";
@@ -531,21 +537,34 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		63D4DCC12C709782009F1DDC /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */ = {
+		2EDC5FEC2C71DFA20075517B /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getstream/stream-chat-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 4.62.0;
+			};
+		};
+		2EDC5FF12C71E0140075517B /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/getstream/stream-chat-swiftui";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.62.0;
+				kind = exactVersion;
+				version = 4.62.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		63D4DCD72C70995A009F1DDC /* StreamChatSwiftUI */ = {
+		2EDC5FED2C71DFD20075517B /* StreamChatUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 63D4DCC12C709782009F1DDC /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */;
-			productName = StreamChatSwiftUI;
+			package = 2EDC5FEC2C71DFA20075517B /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatUI;
+		};
+		2EDC5FEF2C71DFF00075517B /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2EDC5FEC2C71DFA20075517B /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
