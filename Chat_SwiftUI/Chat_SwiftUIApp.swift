@@ -9,6 +9,12 @@ import SwiftUI
 import StreamChat
 import StreamChatSwiftUI
 
+struct User {
+    let id: String
+    let name: String
+    let token: String
+}
+
 @main
 struct Chat_SwiftUIApp: App {
     
@@ -27,7 +33,8 @@ struct Chat_SwiftUIApp: App {
     
     init() {
         self.streamChat = StreamChat(chatClient: chatClient)
-        connectUser()
+        let user = User(id: "arshif1", name: "Chat User2", token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYXJzaGlmMSJ9.1g8hcQ-x8GdYLxWa81rnWYLJxcOms2fq5u_7Tt3GfI4")
+        connectUser(user: user)
     }
     
     var body: some Scene {
@@ -37,16 +44,15 @@ struct Chat_SwiftUIApp: App {
         
     }
     
-    private func connectUser() {
+    private func connectUser(user: User) {
         // This is a hardcoded token valid on Stream's tutorial environment.
-        let token = try! Token(rawValue: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYXJzaGlmMSJ9.1g8hcQ-x8GdYLxWa81rnWYLJxcOms2fq5u_7Tt3GfI4")
+        let token = try! Token(rawValue: user.token)
             
         // Call `connectUser` on our SDK to get started.
         chatClient.connectUser(
             userInfo: .init(
-                id: "arshif1",
-                name: "Mohammed Arshif",
-                imageURL: URL(string: "https://vignette.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg")!
+                id: user.id,
+                name: user.name
             ),
             token: token
         ) { error in

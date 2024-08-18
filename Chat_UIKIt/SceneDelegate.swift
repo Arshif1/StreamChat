@@ -8,6 +8,12 @@
 import UIKit
 import StreamChat
 
+struct User {
+    let id: String
+    let name: String
+    let token: String
+}
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
@@ -18,11 +24,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         options connectionOptions: UIScene.ConnectionOptions
     ) {
         let config = ChatClientConfig(apiKey: .init("y3c49p3sy7mu"))
+        
+        let user = User(id: "mohammed32", name: "Chat User1", token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoibW9oYW1tZWQzMiJ9.WrDdRcMVfEcIJOyV-SgNb_qfrMOoQgboK9kedYfxjA0")
 
-        /// user id and token for the user
-        let userId = "arshif2"
-        let token: Token =
-            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYXJzaGlmMiJ9.lYqTfrm6KQdPC_VUwlOrOZtF0CbseyCWTYy_QdUM29I"
+        let token = try! Token(rawValue: user.token)
 
         /// Step 1: create an instance of ChatClient and share it using the singleton
         ChatClient.shared = ChatClient(config: config)
@@ -30,16 +35,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         /// Step 2: connect to chat
         ChatClient.shared.connectUser(
             userInfo: UserInfo(
-                id: userId,
-                name: "Arshif",
-                imageURL: URL(string: "https://bit.ly/2TIt8NR")
+                id: user.id,
+                name: user.name
             ),
             token: token
         )
 
         /// Step 3: create the ChannelList view controller
-        let channelList = DemoChannelList()
-        let query = ChannelListQuery(filter: .containMembers(userIds: [userId]))
+        let channelList = UserChannelList()
+        let query = ChannelListQuery(filter: .containMembers(userIds: [user.id]))
         channelList.controller = ChatClient.shared.channelListController(query: query)
 
         /// Step 4: similar to embedding with a navigation controller using Storyboard
