@@ -10,6 +10,7 @@
 		2EDC5FEE2C71DFD20075517B /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = 2EDC5FED2C71DFD20075517B /* StreamChatUI */; };
 		2EDC5FF02C71DFF00075517B /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = 2EDC5FEF2C71DFF00075517B /* StreamChat */; };
 		6310A7252C71E7B300F69F63 /* StreamChatSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6310A7242C71E7B300F69F63 /* StreamChatSwiftUI */; };
+		6310A7272C73A2FB00F69F63 /* AllChannelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6310A7262C73A2FB00F69F63 /* AllChannelList.swift */; };
 		63D4DCCC2C709912009F1DDC /* Chat_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D4DCCB2C709912009F1DDC /* Chat_SwiftUIApp.swift */; };
 		63D4DCD02C709913009F1DDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCCF2C709913009F1DDC /* Assets.xcassets */; };
 		63D4DCD32C709913009F1DDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D4DCD22C709913009F1DDC /* Preview Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6310A7262C73A2FB00F69F63 /* AllChannelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllChannelList.swift; sourceTree = "<group>"; };
 		63D4DCC92C709912009F1DDC /* Chat_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D4DCCB2C709912009F1DDC /* Chat_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_SwiftUIApp.swift; sourceTree = "<group>"; };
 		63D4DCCF2C709913009F1DDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 				63D4DCDF2C7099B2009F1DDC /* AppDelegate.swift */,
 				63D4DCE12C7099B2009F1DDC /* SceneDelegate.swift */,
 				63D4DCE32C7099B2009F1DDC /* UserChannelList.swift */,
+				6310A7262C73A2FB00F69F63 /* AllChannelList.swift */,
 				63D4DCE52C7099B2009F1DDC /* Main.storyboard */,
 				63D4DCE82C7099B3009F1DDC /* Assets.xcassets */,
 				63D4DCEA2C7099B3009F1DDC /* LaunchScreen.storyboard */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D4DCE42C7099B2009F1DDC /* UserChannelList.swift in Sources */,
+				6310A7272C73A2FB00F69F63 /* AllChannelList.swift in Sources */,
 				63D4DCE02C7099B2009F1DDC /* AppDelegate.swift in Sources */,
 				63D4DCE22C7099B2009F1DDC /* SceneDelegate.swift in Sources */,
 			);
