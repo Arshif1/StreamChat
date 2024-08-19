@@ -44,7 +44,7 @@ class AllChannelList: UIViewController {
     }
     
     private func addChildVC(for channelType: ChannelType) {
-        let channelList = ChatChannelListVC()
+        let channelList = ChatChannelListWithStatusVC()
         let query = ChannelListQuery(filter: .equal("type", to: channelType.rawValue))
         channelList.controller = ChatClient.shared.channelListController(query: query)
         transitionToChildViewController(channelList)
@@ -69,4 +69,13 @@ class AllChannelList: UIViewController {
         }
         createChildVC(childVC)
     }
+}
+
+class ChatChannelListWithStatusVC: ChatChannelListVC {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        router = ChatRouter(rootViewController: self)
+    }
+    
 }

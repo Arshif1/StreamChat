@@ -14,6 +14,7 @@ class UserChannelList: ChatChannelListVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        router = ChatRouter(rootViewController: self)
 
         let buttonList = UIBarButtonItem(image: UIImage(systemName: "list.bullet.circle"),
                                          style: .plain,
@@ -35,7 +36,8 @@ class UserChannelList: ChatChannelListVC {
     }
     
     @objc private func tapActionAdd() {
-        print("Tapped Add Button")
+        let conroller = UINavigationController(rootViewController: AddChannelVC())
+        present(conroller, animated: true, completion: nil)
     }
     
 }

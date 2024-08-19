@@ -25,7 +25,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     ) {
         let config = ChatClientConfig(apiKey: .init("y3c49p3sy7mu"))
         
-        let user = User(id: "mohammed32", name: "Chat User1", token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoibW9oYW1tZWQzMiJ9.WrDdRcMVfEcIJOyV-SgNb_qfrMOoQgboK9kedYfxjA0")
+        let user = User(id: "arshif1", name: "Chat User2", token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYXJzaGlmMSJ9.1g8hcQ-x8GdYLxWa81rnWYLJxcOms2fq5u_7Tt3GfI4")
+
+        
+//        let user = User(id: "mohammed32", name: "Chat User1", token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoibW9oYW1tZWQzMiJ9.WrDdRcMVfEcIJOyV-SgNb_qfrMOoQgboK9kedYfxjA0")
 
         let token = try! Token(rawValue: user.token)
 
